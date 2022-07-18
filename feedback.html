@@ -1,0 +1,143 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="main css">
+    <link rel="stylesheet" href="https://cdnjs.
+    cloudflare.com/ajax/lis/font-awesome/4.7.0/css/
+    font-awesome.min.css">
+<style>
+            
+body{
+    background-color: rgb(241, 125, 232);
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+td{
+    float: left;
+}
+
+td a{
+display: block;
+color: rgb(22, 55, 243);
+text-align: center;
+padding: 14 16px;
+text-decoration: none;
+}
+
+td a:hover:not(.active){
+    background-color: #151515;
+}
+
+.active{
+    background-color: #A9CCE3;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+ </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class="logo">FEEDBACK</h1></div>
+            <div class="menu-container">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-container">
+<hr>
+<nav>
+    <table cellspacing="5" cellpadding="5">
+              <td><a href="HOME.html">HOME</a></td>
+              <td><a href="MOVIES.html">MOVIES</a></td>
+              <td><a href="LATEST.html">LATEST</a></td>
+              <td><a href="POPULAR.html">POPULAR</a></td>
+              <td><a href="FEEDBACK.html">FEEDBACK</a></td>
+              <td><a href="CONTACT.html">CONTACT</a></td>
+</table>
+</nav>
+<hr>
+</div> 
+
+<div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+
+
+</body>
+</html>
+
+
+
+
+
+
